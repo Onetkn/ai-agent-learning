@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Env / secrets
+.env
+.env.*
+
+# Tooling / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs / caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local artifacts
+dist/
+build/
+artifacts/
+
