@@ -1,6 +1,6 @@
 # 资源清单、论文来源与热点 Radar
 
-原则：科研学习优先一手论文、开放评审、benchmark、代码仓库和官方文档。视频和社区讨论只用来辅助理解，不作为结论来源。
+原则：科研学习优先一手论文、开放评审、benchmark、代码仓库和官方文档。视频和社区讨论只用来辅助理解，不作为结论来源。具体使用规则见 [docs/06-resource-playbook.md](/D:/Learning/docs/06-resource-playbook.md)。
 
 ## Paper Reading
 
@@ -96,11 +96,28 @@
 - [Phoenix Observability](https://github.com/Arize-ai/phoenix)
 - [DSPy](https://github.com/stanfordnlp/dspy)
 
+## 课程 / YouTube / B站
+
+课程和视频用来建立直觉，不替代论文和官方文档。
+
+- [Stanford CS25](https://web.stanford.edu/class/cs25/past/cs25-v5/)
+- [Google ML Crash Course: Large language models](https://developers.google.com/machine-learning/crash-course/llm)
+- [DeepLearning.AI Retrieval Augmented Generation](https://www.deeplearning.ai/courses/retrieval-augmented-generation)
+- [DeepLearning.AI Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/alpha/short-courses/building-evaluating-advanced-rag/)
+- 李宏毅生成式 AI / 大模型课程：优先看高校课程、作者讲解和带讲义的视频，不把标题党实战合集当主线材料。
+
+使用要求：
+
+- 看视频前写下要解决的问题。
+- 看完用 `templates/video-note.md` 留下 3-5 条有效理解。
+- 视频里的重要 claim 必须回到论文、官方文档或 benchmark 验证。
+
 ## Benchmark 入口
 
 - [SWE-bench](https://www.swebench.com/)
 - [GAIA Leaderboard](https://huggingface.co/gaia-benchmark)
 - [OSWorld](https://os-world.github.io/)
+- [AgentBench](https://openreview.net/forum?id=zAdUB0aCTQ)
 
 ## 论文阅读时必须回答的问题
 

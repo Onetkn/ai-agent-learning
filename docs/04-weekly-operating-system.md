@@ -1,6 +1,6 @@
 # 每周科研推进系统
 
-你每周只有 6-8 小时，所以关键不是塞满资料，而是固定完成“读论文 -> 提问题 -> 小验证 -> 复盘”的闭环。
+你每周只有 6-8 小时，所以关键不是塞满资料，而是固定完成“读论文 -> 看官方/课程材料 -> 提问题 -> 小验证 -> 复盘”的闭环。每周实际执行以 [planning/current-week.md](/D:/Learning/planning/current-week.md) 为准。
 
 ## 默认时间分配
 
@@ -30,6 +30,7 @@
 - 1 篇完整论文阅读笔记
 - 1 张研究问题卡
 - 1 条热点 radar 记录
+- 1 份官方文档笔记或视频/课程笔记
 - 1 个最小实验、复现实验设计或失败分析
 
 如果时间紧，优先保留“论文笔记 + 研究问题卡”。代码可以小，但问题必须清楚。
@@ -75,12 +76,15 @@
 ### 周开始
 
 - 根据 `docs/01-roadmap.md` 确认本周阶段主题。
+- 打开 `LEARNING_DASHBOARD.md` 和 `planning/current-week.md`。
 - 选 2 篇深读论文和 2-4 篇热点速览论文。
+- 选 1 个官方文档、benchmark、代码仓库或课程视频作为辅助材料。
 - 明确本周只回答 1 个研究问题。
 
 ### 周中
 
 - 写论文阅读笔记，不只写摘要。
+- 写官方文档笔记或视频笔记，记录它补足了哪块理解。
 - 把论文里的 claim 转成可验证假设。
 - 记录至少 3 个不确定点或反例。
 
@@ -88,6 +92,7 @@
 
 - 更新周复盘。
 - 沉淀 1 张研究问题卡。
+- 更新 `LEARNING_DASHBOARD.md` 的当前状态和 backlog。
 - 判断本周问题是否进入后续复现、survey 或放弃。
 
 ## 研究问题标准
@@ -118,6 +123,8 @@
 - `notes/2026-04-paper-mcp-bench.md`
 - `notes/2026-04-research-question-tool-selection.md`
 - `experiments/2026-05-rag-rerank-ablation.md`
+- `radar/2026-04-week-03-hot-papers.md`
+- `planning/2026-04-week-03.md`
 - `reports/phase-3-rag-long-context-survey.md`
 - `projects/project-03-research-agent/README.md`
 

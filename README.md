@@ -4,16 +4,20 @@
 
 ## 先看什么
 
-1. 看 [docs/01-roadmap.md](/D:/Learning/docs/01-roadmap.md) 理解 24 周科研主线。
-2. 看 [docs/03-resources.md](/D:/Learning/docs/03-resources.md) 获取论文来源、热点 radar 和阅读规则。
-3. 看 [docs/04-weekly-operating-system.md](/D:/Learning/docs/04-weekly-operating-system.md) 确定每周怎么读、怎么提问题、怎么复现。
-4. 从 [templates/paper-reading-note.md](/D:/Learning/templates/paper-reading-note.md)、[templates/research-question-card.md](/D:/Learning/templates/research-question-card.md) 和 [templates/weekly-review.md](/D:/Learning/templates/weekly-review.md) 开始记录。
+1. 先看 [LEARNING_DASHBOARD.md](/D:/Learning/LEARNING_DASHBOARD.md)，确认本周学什么、为什么学、要留下什么产物。
+2. 看 [docs/00-learning-system.md](/D:/Learning/docs/00-learning-system.md)，理解这个学习陪伴系统怎么运转。
+3. 看 [docs/01-roadmap.md](/D:/Learning/docs/01-roadmap.md) 和 [docs/05-field-map.md](/D:/Learning/docs/05-field-map.md)，理解 24 周路线和 LLM/Agent 能力地图。
+4. 看 [planning/current-week.md](/D:/Learning/planning/current-week.md)，开始执行本周计划。
+5. 用 [docs/06-resource-playbook.md](/D:/Learning/docs/06-resource-playbook.md) 决定论文、官方文档、视频、代码仓库和社区资料怎么搭配。
 
 ## 仓库结构
 
 ```text
-docs/          科研路线图、阶段验收、资源清单、每周推进方法
-templates/     论文笔记、研究问题卡、实验报告、周复盘模板
+LEARNING_DASHBOARD.md  每周学习入口和状态看板
+docs/          学习系统说明、路线图、领域地图、资源规则、每周推进方法
+planning/      当前周计划和周计划模板
+radar/         热点论文与方向速览
+templates/     论文笔记、文档笔记、视频笔记、研究问题卡、复现计划、周复盘模板
 notes/         论文阅读笔记、概念解释、related work 梳理
 experiments/   论文复现、小规模 ablation、benchmark 对比记录
 projects/      最小工程验证、研究原型、复现实验目录
@@ -28,6 +32,9 @@ reports/       阶段 survey、研究报告、复现总结、公开作品文稿
   - 1 篇经典/基础论文深读
   - 1 篇当前路线图相关论文深读
   - 2-4 篇热点前沿论文速览
+- 每周默认还要看：
+  - 1 个官方文档、benchmark 或代码仓库
+  - 1 个课程、YouTube、B站或作者 talk
 - 工程实现只做最小可复现，不追求产品化完整度。
 
 ## 当前研究主线
@@ -41,6 +48,7 @@ reports/       阶段 survey、研究报告、复现总结、公开作品文稿
 ## 本仓库的使用规则
 
 - 每周至少留下 1 份论文笔记和 1 张研究问题卡。
+- 每周计划必须同时包含论文、官方文档/benchmark、视频/课程和最小实验。
 - 每个工程实验都必须回答：它验证了哪篇论文的哪个判断。
 - 每个阶段至少完成 1 个小复现或 ablation。
 - 每次引用结论，优先使用论文、官方 benchmark、代码仓库或开放评审记录。
@@ -55,8 +63,14 @@ reports/       阶段 survey、研究报告、复现总结、公开作品文稿
 
 ## 当前已准备好的模板
 
+- [每周学习计划模板](/D:/Learning/templates/weekly-learning-plan.md)
 - [论文阅读笔记模板](/D:/Learning/templates/paper-reading-note.md)
 - [研究问题卡模板](/D:/Learning/templates/research-question-card.md)
+- [官方文档笔记模板](/D:/Learning/templates/official-doc-note.md)
+- [视频/课程笔记模板](/D:/Learning/templates/video-note.md)
+- [热点论文 Radar 模板](/D:/Learning/templates/hot-paper-radar.md)
+- [复现/Ablation 计划模板](/D:/Learning/templates/reproduction-plan.md)
+- [能力检查点模板](/D:/Learning/templates/capability-checkpoint.md)
 - [学习日志模板](/D:/Learning/templates/daily-log.md)
 - [实验报告模板](/D:/Learning/templates/experiment-report.md)
 - [周复盘模板](/D:/Learning/templates/weekly-review.md)
