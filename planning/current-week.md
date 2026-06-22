@@ -125,3 +125,10 @@
 
 - 如果三件套完成：下周进入第 4 周，写阶段 1 小结、3 张候选研究问题卡和“工程验证能做什么 / 不能做什么”说明。
 - 如果三件套未完成：继续停留在阶段 1 第 3 周，不要切换到 memory、browser、scientific agents 或 coding agents 深读。
+
+## Reviewer 建议（2026-06-22）
+
+- 上周实际完成的是 `radar/2026-06-week-03-hot-papers.md`；深读笔记、研究问题卡和最小实验计划仍缺失。
+- 本周继续降载是正确选择，不进入第 4 周阶段小结，也不扩新的热点深读。
+- 最小补救顺序：先写 `notes/2026-06-week-04-agentbench-reading-note.md`，再写研究问题卡，最后写 `experiments/2026-06-week-04-agentbench-vs-mcpmark-plan.md`。
+- 如果时间不足，只保留 `AgentBench` 深读和研究问题卡；`OpenAI Agent Evals` 只作为辅助摘录，不升级为额外负担。

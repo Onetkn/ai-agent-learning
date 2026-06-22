@@ -33,6 +33,7 @@
   - `radar/2026-06-week-02-hot-papers.md`
   - `radar/2026-06-week-03-hot-papers.md`
   - `reports/2026-06-week-02-reviewer.md`
+  - `reports/2026-06-week-03-reviewer.md`
 
 ## 为什么本周仍不进入第 4 周
 
@@ -92,6 +93,7 @@
 - `notes/2026-06-week-04-research-question-benchmark-verification-vs-trajectory.md`
 - `experiments/2026-06-week-04-agentbench-vs-mcpmark-plan.md`
 - `notes/2026-06-week-04-openai-agent-evals-note.md` 或 `notes/2026-06-week-04-cs25-eval-note.md`
+- `reports/2026-06-week-03-reviewer.md` 的降载补救计划：只保留 1 篇深读、1 张问题卡、1 个最小实验设计
 - 第 4 周阶段小结暂缓，等第 3 周三件套完成后再启动
 
 ## 每周操作顺序
