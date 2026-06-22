@@ -1,22 +1,23 @@
 # Current Week Plan
 
-周次：第 3 周收口 / 第 4 周前置准备
+周次：第 3 周二次收口 / 第 4 周前置准备
 
-日期：2026-06-15 至 2026-06-21
+日期：2026-06-22 至 2026-06-28
 
-主研究主题：继续完成阶段 1 第 3 周缺失产物，但这周的判断目标已经前置到“是否允许进入第 4 周阶段小结”
+主研究主题：继续完成阶段 1 第 3 周缺失产物，用 `AgentBench` 与 `MCPMark` 练习拆解 benchmark 证据链；本周不切换到第 4 周阶段小结。
 
 ## 为什么这周仍然不直接切到第 4 周
 
-- 截至 2026-06-16，`notes/` 与 `experiments/` 里仍没有 `AgentBench` 正式深读笔记、研究问题卡和最小实验计划。
-- 也就是说，路线图上的“第 4 周应该写阶段 survey 和候选研究问题卡”，目前还缺第 3 周的证据底座。
-- 因此这周的正确动作不是扩新论文，而是用最小资源组合把第 3 周收口，并为第 4 周阶段小结准备材料。
+- 截至 2026-06-22，`notes/` 与 `experiments/` 里仍没有 `AgentBench` 正式深读笔记、研究问题卡和最小实验计划。
+- `radar/2026-06-week-03-hot-papers.md` 已经补足方向感，但它不能替代论文深读、问题卡和最小实验设计。
+- 第 4 周应该写阶段 survey 和候选研究问题卡；如果没有第 3 周的 benchmark/eval 证据底座，阶段小结会变成资料罗列。
+- 因此这周的正确动作是继续降载：只围绕一个研究问题，把第 3 周三件套补齐。
 
 ## 本周能力目标
 
 - 能拆一篇 agent benchmark 论文的实验设置：task、environment、baseline、metric、verification、failure mode。
 - 能说明 `success rate` 之外，verification 与 trajectory diagnosis 为什么会改变 benchmark 的解释力。
-- 能把一份官方文档或一场 talk 变成“补哪块理解”的正式笔记，而不是只保留链接。
+- 能把官方 eval 文档或课程 talk 转成“补哪块理解”的正式笔记。
 - 能用一张固定字段对比表，把 `AgentBench` 和 `MCPMark` 的设计差异写成自己的判断。
 - 能在周末只回答一个关键信号：第 3 周三件套是否足以支撑进入第 4 周阶段小结。
 
@@ -25,27 +26,27 @@
 | 类型 | 资源 | 为什么这周读 |
 | --- | --- | --- |
 | 经典 / 基础深读 | [AgentBench: Evaluating LLMs as Agents](https://openreview.net/forum?id=zAdUB0aCTQ) | 继续用较早 benchmark 练习拆环境、baseline、metric、verification 与 failure analysis，是这周最该优先完成的正式深读。 |
-| 路线图相关深读 | [MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use](https://openreview.net/forum?id=uobROwBsJm) | OpenReview 显示发布于 2026-01-26，ICLR 2026 Poster；它仍是当前 MCP / tool-use benchmark 主线里最直接的路线图论文。 |
-| 热点速览 | `radar/2026-06-week-03-hot-papers.md` | 本周只维持方向感，避免再扩深读债务。 |
-| 官方文档 | [OpenAI Agent Evals](https://developers.openai.com/api/docs/guides/agent-evals) | 官方页面明确用 traces、graders、datasets、eval runs 评估 agent workflows，能直接补 benchmark 与工程 eval 的映射。 |
-| 协议文档 | [MCP Specification (2025-11-25)](https://modelcontextprotocol.io/specification/2025-11-25) | 当前官方规范入口强调 MCP 是连接 LLM 应用与外部数据源、工具的开放协议，并以 `schema.ts` 为权威来源。 |
-| 课程 / talk | [Stanford CS25 V5: RL as a Co-Design of Product and Research](https://web.stanford.edu/class/cs25/past/cs25-v5/) | Stanford 页面显示 2026-04-08 的 talk 直接讨论“真实用户反馈如何塑造 eval 指标”，适合补产品反馈视角。 |
-| 最小实验 | `experiments/2026-06-week-03-agentbench-vs-mcpmark-plan.md` | 继续只做两篇 benchmark 的固定字段对比，不扩第三篇论文，不做大复现。 |
+| 路线图相关深读 | [MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use](https://openreview.net/forum?id=uobROwBsJm) | OpenReview 页面显示它覆盖 Notion、GitHub、Filesystem、PostgreSQL、Playwright 等真实 MCP 场景，适合对比真实工具环境带来的评测增量。 |
+| 热点速览 | `radar/2026-06-week-04-hot-papers.md` | 本周只维持方向感，观察 MCP/tool-use、memory、computer-use、user-aware evaluation 如何细化失败诊断，不新增深读任务。 |
+| 官方文档 | [OpenAI Agent Evals](https://developers.openai.com/api/docs/guides/agent-evals) | 官方页面强调用 traces、graders、datasets、eval runs 改进 agent workflows，能直接补 benchmark 与工程 eval 的映射。 |
+| 协议文档 | [Model Context Protocol 2025-06-18 Specification](https://modelcontextprotocol.io/specification/2025-06-18) | 官方规范说明 MCP 是连接 LLM 应用与外部数据源、工具的开放协议，并以 `schema.ts` 为权威来源；适合确认 tool-use benchmark 的协议边界。 |
+| 课程 / talk | [Stanford CS25 V5: RL as a Co-Design of Product and Research](https://web.stanford.edu/class/cs25/past/cs25-v5/) | Stanford 页面说明这场 talk 讨论产品原型、用户反馈与 eval 指标的共同设计，能补足真实反馈视角。 |
+| 最小实验 | `experiments/2026-06-week-04-agentbench-vs-mcpmark-plan.md` | 只做两篇 benchmark 的固定字段对比，不写代码，不扩第三篇论文。 |
 
 ## 本周热点速览范围
 
 这周只速览，不新增深读任务：
 
-- [AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite](https://openreview.net/forum?id=M7TNf5J26u)
-- [RECODE-H: A Benchmark for Research Code Development with Interactive Human Feedback](https://openreview.net/forum?id=IKnuyyPHCV)
-- [MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers](https://openreview.net/forum?id=7XYjeL46co)
-- [Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions](https://openreview.net/forum?id=DT7JyQC3MR)
+- [MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](https://openreview.net/forum?id=fe8mzHwMxN)
+- [AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Interactions](https://openreview.net/forum?id=sfrVLzsmlf)
+- [Benchmarking MCP Tool Invocation In Computer-Use Agents](https://openreview.net/forum?id=rceD6wwt4B)
+- [User-aware Agent Evaluation with Automated Error Analysis](https://openreview.net/forum?id=fHsVNklKOc)
 
 ## 本周最小实验 / 复现计划
 
 目标文件：
 
-- `experiments/2026-06-week-03-agentbench-vs-mcpmark-plan.md`
+- `experiments/2026-06-week-04-agentbench-vs-mcpmark-plan.md`
 
 只做一个轻量实验，不做完整代码复现：
 
@@ -62,16 +63,16 @@
 ## 本周必须产出
 
 - 论文笔记：
-  - `notes/2026-06-week-03-agentbench-reading-note.md`
+  - `notes/2026-06-week-04-agentbench-reading-note.md`
 - 研究问题卡：
-  - `notes/2026-06-week-03-research-question-benchmark-verification-vs-trajectory.md`
+  - `notes/2026-06-week-04-research-question-benchmark-verification-vs-trajectory.md`
 - 官方文档或视频笔记：
-  - `notes/2026-06-week-03-openai-agent-evals-note.md`
-  - 或 `notes/2026-06-week-03-cs25-eval-note.md`
+  - `notes/2026-06-week-04-openai-agent-evals-note.md`
+  - 或 `notes/2026-06-week-04-cs25-eval-note.md`
 - 热点 radar：
-  - `radar/2026-06-week-03-hot-papers.md`
+  - `radar/2026-06-week-04-hot-papers.md`
 - 最小实验：
-  - `experiments/2026-06-week-03-agentbench-vs-mcpmark-plan.md`
+  - `experiments/2026-06-week-04-agentbench-vs-mcpmark-plan.md`
 
 ## 本周研究问题卡
 
@@ -87,11 +88,11 @@
 
 ## 本周执行顺序
 
-1. 先深读 `AgentBench`，把正式笔记写出来
-2. 再补 1 份 `OpenAI Agent Evals` 或 `Stanford CS25` 笔记
-3. 再写 `AgentBench` vs `MCPMark` 的固定字段对比表
-4. 最后把判断收束成 1 张研究问题卡
-5. 周末只决定一件事：是否允许下周正式进入第 4 周阶段小结
+1. 先深读 `AgentBench`，把正式笔记写出来。
+2. 再补 1 份 `OpenAI Agent Evals` 或 `Stanford CS25` 笔记。
+3. 再写 `AgentBench` vs `MCPMark` 的固定字段对比表。
+4. 最后把判断收束成 1 张研究问题卡。
+5. 周末只决定一件事：是否允许下周正式进入第 4 周阶段小结。
 
 ## 允许推进到第 4 周的条件
 
@@ -105,11 +106,11 @@
 
 ## 周末复盘 Checklist
 
-- [ ] 是否完成 `notes/2026-06-week-03-agentbench-reading-note.md`？
+- [ ] 是否完成 `notes/2026-06-week-04-agentbench-reading-note.md`？
 - [ ] 是否完成 1 份官方文档或 talk 笔记，并写清它补足了哪块理解？
-- [ ] 是否完成 `radar/2026-06-week-03-hot-papers.md`？
-- [ ] 是否完成 `experiments/2026-06-week-03-agentbench-vs-mcpmark-plan.md`？
-- [ ] 是否完成 `notes/2026-06-week-03-research-question-benchmark-verification-vs-trajectory.md`？
+- [ ] 是否完成 `radar/2026-06-week-04-hot-papers.md`？
+- [ ] 是否完成 `experiments/2026-06-week-04-agentbench-vs-mcpmark-plan.md`？
+- [ ] 是否完成 `notes/2026-06-week-04-research-question-benchmark-verification-vs-trajectory.md`？
 - [ ] 是否满足进入第 4 周的三项条件？
 
 ## 如果时间只有 3 小时
