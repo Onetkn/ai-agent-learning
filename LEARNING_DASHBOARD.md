@@ -6,10 +6,10 @@
 
 - 当前定位：LLM / Agent 科研学习陪伴系统
 - 路线图位置：24 周路线图第 1 阶段“研究入门与论文阅读方法”
-- 真实进度判断：第 1-2 周已有正式产物；截至 2026-06-22，仍停留在第 3 周“实验拆解与评测意识”，尚不进入第 4 周阶段小结
-- 最近事实：2026-06-15 至 2026-06-21 新增了 `radar/2026-06-week-03-hot-papers.md` 和周计划，但 `notes/`、`experiments/` 仍没有 `AgentBench` 正式深读笔记、研究问题卡或最小实验计划
+- 真实进度判断：第 1-2 周已有正式产物；截至 2026-06-29，仍停留在第 3 周“实验拆解与评测意识”，尚不进入第 4 周阶段小结
+- 最近事实：2026-06-22 至 2026-06-28 只新增了 `radar/2026-06-week-04-hot-papers.md`；`notes/`、`experiments/` 仍没有 `AgentBench` 正式深读笔记、研究问题卡、官方文档或视频笔记、最小实验计划
 - 当前主线：从“会看概念”推进到“会拆 benchmark / dataset / baseline / metric / verification / failure case”
-- 本周最小推进：继续补齐 `AgentBench` 深读笔记、研究问题卡、`AgentBench` vs `MCPMark` 最小实验计划三件套；只有三件套完成后，才允许进入第 4 周阶段小结
+- 当前最小推进：继续补齐 `AgentBench` 深读笔记、研究问题卡、`AgentBench` vs `MCPMark` 最小实验计划三件套；只有三件套完成后，才允许进入第 4 周阶段小结
 
 ## 已完成产物
 
@@ -32,8 +32,10 @@
   - `radar/2026-06-week-01-hot-papers.md`
   - `radar/2026-06-week-02-hot-papers.md`
   - `radar/2026-06-week-03-hot-papers.md`
+  - `radar/2026-06-week-04-hot-papers.md`
   - `reports/2026-06-week-02-reviewer.md`
   - `reports/2026-06-week-03-reviewer.md`
+  - `reports/2026-06-week-04-reviewer.md`
 
 ## 为什么本周仍不进入第 4 周
 
@@ -75,7 +77,7 @@
 
 ## 当前活跃研究问题
 
-> `AgentBench` 和 `MCPMark` 的 benchmark 结论，究竟主要受任务环境、验证方式，还是 trajectory-level diagnosis 影响？
+> `AgentBench` 和 `MCPMark` 的 benchmark 结论，究竟主要受任务环境、verification 方式，还是 trajectory-level diagnosis 影响？
 
 本周写作时只围绕这个问题，不扩成新的 survey。
 
@@ -93,7 +95,7 @@
 - `notes/2026-06-week-04-research-question-benchmark-verification-vs-trajectory.md`
 - `experiments/2026-06-week-04-agentbench-vs-mcpmark-plan.md`
 - `notes/2026-06-week-04-openai-agent-evals-note.md` 或 `notes/2026-06-week-04-cs25-eval-note.md`
-- `reports/2026-06-week-03-reviewer.md` 的降载补救计划：只保留 1 篇深读、1 张问题卡、1 个最小实验设计
+- `reports/2026-06-week-04-reviewer.md` 的降载补救计划：只保留 1 篇深读、1 张问题卡、1 个最小实验设计
 - 第 4 周阶段小结暂缓，等第 3 周三件套完成后再启动
 
 ## 每周操作顺序

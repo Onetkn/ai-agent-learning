@@ -132,3 +132,10 @@
 - 本周继续降载是正确选择，不进入第 4 周阶段小结，也不扩新的热点深读。
 - 最小补救顺序：先写 `notes/2026-06-week-04-agentbench-reading-note.md`，再写研究问题卡，最后写 `experiments/2026-06-week-04-agentbench-vs-mcpmark-plan.md`。
 - 如果时间不足，只保留 `AgentBench` 深读和研究问题卡；`OpenAI Agent Evals` 只作为辅助摘录，不升级为额外负担。
+
+## Reviewer 建议（2026-06-29）
+
+- 本周新增产物仍只有 `radar/2026-06-week-04-hot-papers.md`；`notes/` 和 `experiments/` 依然没有 week-04 的正式深读、问题卡、官方文档或视频笔记、最小实验计划。
+- 因此判断不变：继续停留在第 3 周收口，不进入第 4 周阶段小结，也不扩新的热点深读或新主题。
+- 下一步只做降载补救三件套：先写 `notes/2026-06-week-04-agentbench-reading-note.md`，再写 `notes/2026-06-week-04-research-question-benchmark-verification-vs-trajectory.md`，最后写 `experiments/2026-06-week-04-agentbench-vs-mcpmark-plan.md`。
+- 如果下周时间依旧紧，只保留这三件，不补新的 radar，不切换到 memory、browser、scientific agents 或 coding agents。
